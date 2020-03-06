@@ -38,12 +38,13 @@ int main(){
             }
         }
 
+        // 計算結果が7であれば出力
         if(res == 7){
             cout << res_sentence << "=7" << endl;
             return 0;
         }
 
     }
-            // 問題の仕様上ここにはたどり着かないはず
-        return -1;
+    // 問題の仕様上ここにはたどり着かないはず
+    return -1;
 }
